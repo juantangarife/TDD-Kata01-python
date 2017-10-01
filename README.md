@@ -1,1 +1,4 @@
-# TDD-Kata01-python
+# TDD Kata Simple
+## Realizado por:
+### Diego Andrés Corredor
+### Juan Camilo Tangarife Palacio
