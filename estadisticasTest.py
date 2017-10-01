@@ -4,4 +4,5 @@ from Estadisiticas import Estadisticas
 
 class estadisticasTest(TestCase):
     def test_getEstadisticas(self):
-        self.assertEquals(Estadisticas().getEstadisticas(""),0,"Cadena vacia")
+        estadistica=Estadisticas().getEstadisticas("")
+        self.assertEquals(estadistica[0],0,"Cadena vacia")
