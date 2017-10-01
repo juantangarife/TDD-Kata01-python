@@ -6,6 +6,7 @@ class estadisticasTest(TestCase):
     def test_getEstadisticas_vacia(self):
         estadistica=Estadisticas().getEstadisticas("")
         self.assertEquals(estadistica[0],0,"Cadena vacia")
+        self.assertEquals(estadistica[1],None, "Cadena vacia")
 
     def test_getEstadisticas_UnNumero(self):
         estadistica=Estadisticas().getEstadisticas("1")
