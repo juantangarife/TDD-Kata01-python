@@ -15,6 +15,7 @@ class estadisticasTest(TestCase):
         self.assertEqual(estadistica[0], 1, "Con un numero - Num. elementos")
         self.assertEqual(estadistica[1], 5, "Con un numero - Minimo")
         self.assertEqual(estadistica[2], 5, "Con un numero - Maximo")
+        self.assertEqual(estadistica[3], 5, "Con un numero - Promedio")
 
     def test_getEstadisticas_DosNumeros(self):
         estadistica = Estadisticas().getEstadisticas("4,1")
