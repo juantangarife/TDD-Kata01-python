@@ -11,6 +11,6 @@ class Estadisticas:
                     minimo = int(l)
             return [len(numeros), minimo]
         else:
-            return [1,int(cadena)]
+            return [1, int(cadena), int(cadena)]
 
 
