@@ -8,6 +8,7 @@ class estadisticasTest(TestCase):
         self.assertEqual(estadistica[0], 0, "Cadena vacia - Num. elementos")
         self.assertEqual(estadistica[1], None, "Cadena vacia - Minimo")
         self.assertEqual(estadistica[2], None, "Cadena vacia - Maximo")
+        self.assertEqual(estadistica[3], None, "Cadena vacia - Promedio")
 
     def test_getEstadisticas_UnNumero(self):
         estadistica = Estadisticas().getEstadisticas("5")
