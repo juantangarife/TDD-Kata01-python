@@ -14,6 +14,7 @@ class Estadisticas:
                     maximo = num_l
             return [len(numeros), minimo, maximo]
         else:
-            return [1, int(cadena), int(cadena)]
+            num = int(cadena)
+            return [1, num, num, num]
 
 
