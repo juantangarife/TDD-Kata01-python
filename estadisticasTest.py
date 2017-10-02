@@ -20,6 +20,7 @@ class estadisticasTest(TestCase):
 
 
     def test_getEstadisticas_NNumeros(self):
-        estadistica=Estadisticas().getEstadisticas("1,4,8,5")
-        self.assertEquals(estadistica[0],4,"Con N numeros - Num. elementos")
+        estadistica=Estadisticas().getEstadisticas("5,4,8,5,2")
+        self.assertEquals(estadistica[0],5,"Con N numeros - Num. elementos")
+        self.assertEquals(estadistica[0],2,"Con N numeros - Minimo")
 
