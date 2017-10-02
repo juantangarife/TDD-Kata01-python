@@ -1,4 +1,3 @@
-
 class Estadisticas:
     def getEstadisticas(self, cadena):
         if cadena == "":
