@@ -5,4 +5,4 @@ class Estadisticas:
             return [0,None]
         else:
             numeros = cadena.split(",")
-            return [len(numeros)]
+            return [len(numeros),int(numeros[0])]
