@@ -1,7 +1,7 @@
 class Estadisticas:
     def getEstadisticas(self, cadena):
         if cadena == "":
-            return [0, None, None]
+            return [0, None, None, None]
         elif "," in cadena:
             numeros = cadena.split(",")
             minimo = int(numeros[0])
