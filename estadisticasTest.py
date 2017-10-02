@@ -29,4 +29,3 @@ class estadisticasTest(TestCase):
         self.assertEqual(estadistica[0], 5, "Con N numeros - Num. elementos")
         self.assertEqual(estadistica[1], 2, "Con N numeros - Minimo")
         self.assertEqual(estadistica[2], 8, "Con N numeros - Maximo")
-
